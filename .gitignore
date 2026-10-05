@@ -1,0 +1,27 @@
+﻿# ── Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ── Virtual environments
+venv/
+.venv/
+env/
+.env.local
+
+# ── SECRETS — NEVER COMMIT
+# The .env file contains your API keys. It must NEVER be committed.
+.env
+
+# ── Streamlit
+.streamlit/secrets.toml
+
+# ── Data / uploads
+data/*.pdf
+data/*.docx
+data/*.txt
+data/*.db
+
+# ── OS
+.DS_Store
+Thumbs.db
